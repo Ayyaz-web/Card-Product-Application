@@ -1,0 +1,114 @@
+
+#prodetails{
+    display: flex;
+    margin: 20px;
+    gap: 50px;
+}
+.back-btn{
+    
+    margin-right: 1150px;
+}
+.back{
+    color: #087096;
+    background: transparent;
+    border: 2px solid #087096;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+/* image section  */
+
+.thumbnail{
+    width: 50%;
+    box-shadow: -8px -8px 15px rgb(173, 168, 168), 5px 5px 15px rgb(156, 152, 152);
+    padding: 10px;
+    background-color: white;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+.small-img-col{
+    cursor: pointer;  
+    border: 2px solid rgb(250, 248, 248); 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;   
+}
+
+/* details section  */
+.details{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.title{
+    font-size: 50px;
+}
+.description{
+    width: 100%;
+    font-size: 18px;
+    color: rgb(81, 80, 80);
+}
+
+
+.pric {
+    color: green;
+    font-size: 35px;
+}
+
+.pric>span:nth-child(2) {
+    font-size: 25px;
+}
+
+
+.lin {
+    text-decoration-line: line-through;
+    color: rgb(255, 0, 0);
+}
+.dicount{
+    margin-left:30px;
+}
+.color{
+    color: red;
+}
+
+
+.input-cart{
+    display: flex;
+    gap: 2px;
+}
+
+.input-cart>input{
+ width: 50px;
+    height: 47px;
+    padding: 10px;
+   font-size: 16px;
+   border: 2px solid #000000;
+   border-radius:16px ;
+}
+
+.buttn {
+    color: #ffffff;
+    background-color: red;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 70%;
+    font-size: 30px;
+}
+
+.buttn:hover {
+    background-color: #000000;
+    transition: ease-in-out 1s;
+    color: white;
+}
+
+
+
+
+
+
